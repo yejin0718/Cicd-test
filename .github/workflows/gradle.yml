@@ -2,7 +2,7 @@ name: Deploy to Amazon EC2
 
 on:
   #pull request 시 작동
-  pull_request:
+  push:
     branches:
       - develop
 
